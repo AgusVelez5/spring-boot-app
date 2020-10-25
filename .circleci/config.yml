@@ -6,5 +6,16 @@ orbs:
 workflows:
   maven_test:
     jobs:
-      - maven/test # checkout, build, test, and upload test results
-
+      build:
+        docker:
+          - image: circleci/openjdk:stretch
+            auth:
+              username: agusvelez5
+              password: $DOCKERHUB_PASSWORD  
+        steps:
+          - checkout
+          - run: ./mvnw -Dmaven.test.skip=true package
+          - persist_to_workspace:
+              root: ./
+              paths:
+                - target/
