@@ -13,3 +13,5 @@ TravisCI: [![Build Status](https://travis-ci.com/AgusVelez5/spring-boot-app.svg?
 Codefresh: [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/atixlabs/default%2Fspring-bppt?type=cf-1&key=eyJhbGciOiJIUzI1NiJ9.NWY5NTk5NmIxNGFjZDdmZjBhMzQ1NzNl.x_T--uWxOKM9kHhOQ7XCbf4ZOx8cYCfuWptLL4_7ta4)]( https://g.codefresh.io/pipelines/edit/new/builds?id=5f9599f266f5cb5257ccf69b&pipeline=spring-bppt&projects=default&projectId=5f959998c4234ead26a3e507)
 
 Gitlab: [![pipeline status](https://gitlab.com/AgusVelez5/spring-boot-app/badges/master/pipeline.svg)](https://gitlab.com/AgusVelez5/spring-boot-app/-/commits/master)
+
+Github Actions: ![Java CI](https://github.com/AgusVelez5/spring-boot-app/workflows/Java%20CI/badge.svg)
