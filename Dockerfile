@@ -7,7 +7,7 @@ RUN mvn -B -s /usr/share/maven/ref/settings-docker.xml package
 
 FROM java:8-jre-alpine
 
-EXPOSE 8080
+EXPOSE 8082
 
 RUN mkdir /app
 COPY --from=MAVEN_TOOL_CHAIN /tmp/target/*.jar /app/spring-boot-application.jar
